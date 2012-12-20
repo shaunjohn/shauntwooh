@@ -1,0 +1,44 @@
+
+.social img
+{
+
+	-moz-transition: all 500ms ease-out;
+    -webkit-transition: all 500ms ease-out; 
+    -ms-transition: all 500ms ease-out; 
+    transition: all 500ms ease-out;
+	
+	-webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.social img:hover
+{
+  background-color:#3FA757;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+
+.cloud img
+{
+  background-image: url(/img/grey_cloud.png);
+	-moz-transition: all 500ms ease-out;
+    -webkit-transition: all 500ms ease-out; 
+    -ms-transition: all 500ms ease-out; 
+    transition: all 500ms ease-out;
+	
+	-webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.cloud img:hover
+{
+  background-image: url(/img/green_cloud.png);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+

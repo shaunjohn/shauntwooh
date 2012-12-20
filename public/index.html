@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Shaun 2.0</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/stylesheets/bootstrap.css">
+  <link rel="stylesheet" href="assets/stylesheets/jquery.lightbox-0.5.css">
+  <link rel="stylesheet" href="/css/custom.css">
+
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+</head>
+
+
+<body style="min-width:1264px;" background="/img/debut_light.png">
+
+  <div>
+    <h1 style="margin-top:24px; margin-left: 20%; color:#3FA757; font-size:80px; font-family:HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;">Greenfield of Dreams</h1>
+    <h2 style="margin-top:-42px; margin-left: 60%; color:#666666; font-size:40px; font-family:Lobster;">by Shaun Johnson</h2>
+  </div>
+
+  <div id="cloud" style="margin-top:-100px; margin-left:25%">
+  <a href="/#" onMouseOver="swapImage('jack','smile')" onMouseOut="swapImage('jack','nosmile')"><img src="/img/grey_cloud.png" name="jack"></a>
+  </div>
+
+
+
+  <div id="nav" style="z-index:1; opacity: 0.85; height: 77px; width:90%; background: #262626;
+ position:fixed; bottom:0; border-top-left-radius:22px; border-top-right-radius:22px; margin-left:5%">
+    <ul>
+      <li class="social" ><a href="http://twitter.com"><img class="social" style="height:54px; float:left; padding:20px; padding-left:100px; padding-right:60px;  margin-top:-20px; " src="/img/tweet.png"/></a></li>
+      <li class="social" ><a href="http://linkedin.com"><img class="social" style="height:54px; float:left;  padding:20px; padding-left:120px;  padding-right:120px;  margin-top:-40px; " src="/img/linkedin.png"/></a></li>
+      <li class="social" ><a href="http://tumblr.com"><img class="social" style="height:54px; float:left;  padding:20px; padding-left:120px; padding-right:120px;   margin-top:-60px; " src="/img/tumblr.png"/></a></li>
+      <li class="social"><a href="http://plus.google.com"><img style="height:54px; float:left;  padding:20px;  padding-left:120px;  padding-right:60px;  margin-top:-80px; " src="/img/gplus.png"/></a></li>
+    </ul>
+    </div>
+</body>
+
+  <!-- Javascripts -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="assets/javascripts/jquery.lightbox-0.5.js"></script>
+  <script src="assets/javascripts/jquery.imagesloaded.js"></script>
+  <script src="assets/javascripts/jquery.masonry.js"></script>
+  <script src="assets/javascripts/startupschool.js"></script>
+
+  <script type="text/javascript">
+// Pre load images for rollover
+if (document.images) {
+	smile = new Image;
+	nosmile = new Image;
+
+	smile.src = "/img/green_cloud.png";
+	nosmile.src = "/img/grey_cloud.png";
+}
+function swapImage(thisImage,newImage) {
+	if (document.images) {
+		document[thisImage].src = eval(newImage + ".src");
+	}
+}
+</script>	
+
+
+
+  </body>
+</html>
